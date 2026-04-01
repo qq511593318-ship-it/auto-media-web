@@ -1,0 +1,43 @@
+# 依赖
+node_modules/
+dist/
+.turbo/
+
+# 个人配置 & 敏感信息（Cookie、API Key）
+.env.local
+
+# 图片素材库（体积大，按需本地管理）
+images/
+
+# 生成的文章内容
+archive/
+# 运行日志
+logs/
+
+# 作品配置（含 Notion 链接等个人数据）
+publish_config.json
+
+# 同步状态
+.wx-sync-state.json
+.bjh-sync-state.json
+wx-sync-state.json
+bjh-sync-state.json
+
+# 历史记录
+data/
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+/.stignore
+apps/web/dist/
+apps/server/dist/
+apps/server/prisma/dev.db
+apps/server/prisma/dev.db-journal
