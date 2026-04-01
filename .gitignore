@@ -1,5 +1,7 @@
 # 依赖
 node_modules/
+dist/
+.turbo/
 
 # 个人配置 & 敏感信息（Cookie、API Key）
 .env.local
@@ -35,3 +37,7 @@ data/
 .DS_Store
 Thumbs.db
 /.stignore
+apps/web/dist/
+apps/server/dist/
+apps/server/prisma/dev.db
+apps/server/prisma/dev.db-journal
