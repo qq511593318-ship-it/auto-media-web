@@ -7,7 +7,7 @@ dist/
 .env.local
 
 # 图片素材库（体积大，按需本地管理）
-images/
+/images/
 
 # 生成的文章内容
 archive/
